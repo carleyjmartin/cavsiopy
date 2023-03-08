@@ -17,6 +17,7 @@ release = '0.9.6'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['sphinx.ext.autodoc']
+autodoc_mock_imports = ["cartopy", "pysofa"]
 
 templates_path = ['_templates']
 exclude_patterns = []
