@@ -3,5 +3,5 @@ matplotlib
 astropy
 geopy
 h5py
-# cartopy
-# pysofa
+cartopy
+pysofa
